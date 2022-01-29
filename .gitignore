@@ -1,1 +1,3 @@
+*.map
 /vendor
+/resources/assets/style/scss
