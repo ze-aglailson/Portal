@@ -65,7 +65,7 @@ window.addEventListener('load', function(){
 
     //Controla o menu em relação ao tamanho da tela
     window.addEventListener('resize', function(){
-
+        alturaCabecalho = cabecalho.offsetHeight
         if(window.matchMedia("(max-width:990px)").matches){
             menuPrincipal.style.paddingTop = alturaCabecalho+'px';
         }else if(window.matchMedia("(min-width:991px)").matches && menuAberto){

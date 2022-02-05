@@ -1,0 +1,22 @@
+/* #ff6b81 */
+.contente-btn-volta-topo {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.contente-btn-volta-topo .btn-volta-top {
+  padding: 8px 10px;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  background-color: #00AAFF;
+  color: #FFFFFF;
+  border-radius: 3px;
+  display: none;
+}
+.contente-btn-volta-topo .btn-volta-top-visivel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=page.css.map */

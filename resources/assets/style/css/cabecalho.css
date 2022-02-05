@@ -229,16 +229,24 @@
     padding: 20px 0;
     border-bottom: 1px solid #eee;
   }
+  .container-cabecalho .content-logo-btn-menu .logo-box-busca-large .logo a {
+    width: 160px;
+    height: 50px;
+    background-size: 160px;
+  }
   .container-cabecalho .content-logo-btn-menu .logo-box-busca-large .box-busca-large {
     flex: 1;
     display: flex;
+  }
+  .container-cabecalho .content-logo-btn-menu .logo-box-busca-large .box-busca-large .form-busca #ipt-busca {
+    padding: 0px 15px;
   }
   .container-cabecalho .content-logo-btn-menu .btn-menu {
     display: none;
   }
   .container-cabecalho .content-logo-btn-menu .content-menu {
+    width: 100%;
     height: 100%;
-    width: auto;
     position: relative;
     left: inherit;
     background-color: inherit;
@@ -252,6 +260,7 @@
     transition: none;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
   }
   .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .form-busca {
     width: auto;
@@ -274,7 +283,15 @@
     cursor: pointer;
   }
   .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-midia {
-    display: none;
+    width: auto;
+    position: static;
+    padding: 0;
+  }
+  .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-midia li.item {
+    margin-left: 15px;
+  }
+  .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-midia li.item a.icon-midia {
+    font-size: 1.2em;
   }
   .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-menu {
     padding: 0;
@@ -289,10 +306,9 @@
   .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-menu li.item a {
     color: #3c4e64;
   }
-  .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-menu li.item:hover a {
-    color: #333;
+  .container-cabecalho .content-logo-btn-menu .content-menu .menu-principal .ul-items-menu li.item:hover a.a-item-menu {
+    color: #00AAFF;
     background-color: transparent;
-    text-decoration: underline;
   }
 }
 
